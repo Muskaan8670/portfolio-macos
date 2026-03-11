@@ -1,0 +1,123 @@
+/**
+ * @file: nabiha.profile.ts
+ * @author: Nabiha Hasrat
+ * @summary: Aspiring Full-Stack Developer focused on scalable systems & aesthetic UI.
+ */
+
+// --------------------------------------------------
+// 1. CORE TECH STACK
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React.js (Learning)",
+  ],
+  backend: [
+    "C#",
+    "ASP.NET Web Forms",
+    "SQL Server",
+  ],
+  concepts: [
+    "Full-Stack Development",
+    "Database Design",
+    "Authentication & Session Handling",
+    "CRUD Operations",
+    "System Logic & Prediction Algorithms",
+  ],
+  tools: ["Git", "GitHub", "VS Code", "Canva"]
+};
+
+// --------------------------------------------------
+// 2. CURRENT PROJECT (CAREBUDDY)
+// --------------------------------------------------
+
+class ProjectPortfolio {
+
+  /** 
+   * @project Medicine-Selling Web Application
+   * @type Full-Stack Web Application
+   */
+  public MedicinePlatform(): ProjectImpact {
+
+    const architecture = "3-Tier Architecture (UI, Business Logic, Database)";
+    
+    const features = [
+      "Product Listing with Search",
+      "Dynamic Product Cards (Clickable Redirect)",
+      "Add-to-Cart with Quantity Update",
+      "Stock Maintenance Module",
+      "Medicine Comparison System",
+      "Doctor Suggestion Feature",
+      "Advanced Period Tracking System"
+    ];
+
+    const specialLogic = {
+      cyclePrediction: "Next Period Prediction using Average of Last 6 Months",
+      irregularDetection: "Cycle Irregularity Detection Logic",
+      calendarIntegration: "Highlighted Previous & Predicted Dates (Light Pink UI)"
+    };
+
+    return { architecture, features, specialLogic };
+  }
+}
+
+// --------------------------------------------------
+// 3. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = {
+  degree: "Bachelor of Computer Applications (BCA)",
+  college: "Malda College (CBCS Board)",
+  academicFocus: [
+    "Data Structures",
+    "Database Management System",
+    "Operating Systems",
+    "Software Engineering",
+    "Computer Networks"
+  ]
+};
+
+// --------------------------------------------------
+// 4. PROFESSIONAL OBJECTIVE
+// --------------------------------------------------
+
+const careerObjective = {
+  role: "Full-Stack Developer",
+  locationPreference: "India (Remote Opportunities)",
+  currentStatus: "Actively Learning & Building Production-Ready Projects",
+  growthPlan: [
+    "Strengthen Backend Architecture Skills",
+    "Master React Ecosystem",
+    "Prepare for IT Job Interviews",
+    "Build Strong Resume with Real-World Projects"
+  ]
+};
+
+// --------------------------------------------------
+// 5. PERSONAL TRAITS
+// --------------------------------------------------
+
+const developerTraits = [
+  "Detail-Oriented UI Designer",
+  "Strong Logic Builder",
+  "Consistent Learner",
+  "Balances Creativity with System Design",
+  "Improving Communication & Technical Confidence"
+];
+
+export default new ProjectPortfolio();
+
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ nabiha --status
+> Role: Aspiring Full-Stack Developer
+> Location: India (Remote Preferred)
+> Graduation: June 2025
+> Building Skills... [███████░░░] 70% -> Upgrading
+> Ready for Growth.
+```
